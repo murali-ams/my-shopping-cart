@@ -38,12 +38,12 @@ class Recipe extends Component {
                     <li className="collection-item">
                         <label>
                             <input type="checkbox" ref="shipping" checked={this.state.shipping} onChange={this.handleChecked} />
-                            <span>Shipping(+6$)</span>
+                            <span>Shipping(+6 AED)</span>
                         </label>
                     </li>
                     
                 </div>
-                <div className="collection-item" style={{paddingBottom:"15px"}}><b>Total: {total} $</b></div>
+                <div className="collection-item" style={{paddingBottom:"15px"}}><b>Total: {total} AED</b></div>
                     <Button className="waves-effect waves-light btn">Checkout</Button>
                 </div>
             </div>
